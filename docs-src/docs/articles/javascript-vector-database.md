@@ -1,6 +1,7 @@
 ---
 title: JavaScript Vector Database
 slug: javascript-vector-database.html
+description: Build a local-first vector database with JavaScript using RxDB & transformers.js. Run semantic searches directly in the browser with offline support and zero network latency.
 ---
 
 
@@ -37,7 +38,7 @@ A local vector database offers several key benefits:
 
 
 :::note
-In this article only the important source code parts are shown. You can find the full implementation at the [github repository](https://github.com/pubkey/javascript-vector-database).
+In this article only the important source code parts are shown. You can find the full open-source vector database implementation at the [github repository](https://github.com/pubkey/javascript-vector-database).
 :::
 
 ## What is a Vector Database?

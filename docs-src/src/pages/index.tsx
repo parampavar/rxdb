@@ -737,7 +737,7 @@ export default function Home(props) {
                   </a>
                   <a href="/replication-websocket.html" target="_blank">
                     <div className="neumorphism-circle-xs centered replicate-websocket enlarge-on-mouse">
-                      websocket
+                      WebSocket
                     </div>
                   </a>
                   <a href="/replication-webrtc.html" target="_blank">
@@ -1139,7 +1139,7 @@ export default function Home(props) {
             </div>
           </div> */}
 
-          <div className="block reviews">
+          <div className="block reviews" id="reviews">
             <div className="content centered">
               <div className="inner">
                 <h2>

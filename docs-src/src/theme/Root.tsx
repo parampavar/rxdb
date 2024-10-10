@@ -58,12 +58,12 @@ function addCallToActionButton() {
             url: 'https://rxdb.info/newsletter',
             icon: '📰'
         },
-        {
-            text: 'Take Part in the',
-            keyword: 'User Survey 2024',
-            url: 'https://rxdb.info/survey',
-            icon: '📝'
-        }
+        // {
+        //     text: 'Take Part in the',
+        //     keyword: 'User Survey 2024',
+        //     url: 'https://rxdb.info/survey',
+        //     icon: '📝'
+        // }
     ];
     function insertAfter(referenceNode, newNode) {
         referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
@@ -136,6 +136,7 @@ async function triggerClickEventWhenFromCode() {
     }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function addCommunityChatButton() {
     const chatButtonId = 'fixed-chat-button';
     const elementExists = document.getElementById(chatButtonId);
