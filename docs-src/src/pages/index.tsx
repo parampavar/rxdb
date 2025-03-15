@@ -433,7 +433,7 @@ export default function Home(props: {
                   Sync with <b className="underline">any Backend</b>
                 </h2>
                 <p>
-                  RxDB's high-performance <a href="/replication.html" target="_blank">replication protocol</a> powers real-time synchronization between {getAppName(props)} clients and servers.
+                  RxDB's high-performance <a href="/replication.html" target="_blank">Sync Engine</a> powers real-time synchronization between {getAppName(props)} clients and servers.
                   While specialized plugins exist for <a href="/replication-graphql.html" target="_blank">GraphQL</a>
                   , <a href="/replication-couchdb.html" target="_blank">CouchDB</a>, <a href="/replication-webrtc.html">P2P</a>, <a href="/replication-firestore.html" target="_blank">Firestore</a>, and <a href="/replication-nats.html" target="_blank">NATS</a>,
                   it remains <b>backend-agnostic</b> — seamlessly integrating with <a href="/replication-http.html" target="_blank">any infrastructure over HTTP</a> for unmatched flexibility and speed.
@@ -544,7 +544,7 @@ export default function Home(props: {
                       Keep your {getAppName(props)} app running <b>offline</b>
                     </li>
                     <li>
-                      Boost perceived <b>performance</b>
+                      Run local queries with <a href="https://rxdb.info/articles/zero-latency-local-first.html" target="_blank"><b>zero latency</b></a>
                     </li>
                     <li>
                       Simplify and <b>speed up development</b>
