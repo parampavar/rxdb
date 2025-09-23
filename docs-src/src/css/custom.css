@@ -74,8 +74,8 @@ pre code {
     --fontColor-gray: lightgray;
 
     --color-top: #ED168F;
-    --color-middle: #8d2089;
-    --color-bottom: #5f2688;
+    --color-middle: #b2218b;
+    --color-bottom: #752a8a;
 }
 
 .footer.footer--dark {
@@ -122,6 +122,21 @@ body:not(.homepage) .main-wrapper {
 .theme-doc-sidebar-menu {
     font-size: var(--fontSizes-s);
     font-weight: 400;
+}
+
+.menu__list {
+    padding-top: 100px;
+}
+
+.menu__list-item .menu__link {
+    padding-left: 60px;
+}
+
+.menu__list .navbar__item {
+    padding-left: 0px;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: block;
 }
 
 /* Header Collapsible Styling */
@@ -853,8 +868,44 @@ body {
     margin-bottom: 12px;
 }
 
+.margin-right-10-6 {
+    margin-right: 10px;
+}
+
+.padding-right-20-0 {
+    padding-right: 20px;
+}
+
+.font-30-20 {
+    font-size: 30px;
+}
+
+.gap-30-16 {
+    gap: 30px;
+}
+
+.min-width-180-135 {
+    min-width: 180px;
+}
+
 @media (max-width: 900px) {
-    .margin-right-16-6 {
+    .min-width-180-135 {
+        min-width: 135px;
+    }
+
+    .gap-30-16 {
+        gap: 16px;
+    }
+
+    .font-30-20 {
+        font-size: 20px;
+    }
+
+    .padding-right-20-0 {
+        padding-right: 0px;
+    }
+
+    .margin-right-10-6 {
         margin-right: 6px;
     }
 
@@ -910,7 +961,7 @@ body {
     }
 
     .hide-desktop {
-        display: block;
+        display: flex;
     }
 
     .hide-mobile {
@@ -2586,6 +2637,7 @@ footer a:visited {
 
 #CybotCookiebotDialog {
     padding: 12px !important;
+    font-family: var(--ifm-font-family-monospace) !important;
 }
 
 .CybotCookiebotDialogBodyBottomWrapper {
@@ -2716,7 +2768,12 @@ footer a:visited {
 }
 
 /* dialog */
-.modal-consulting-page .ant-modal-content {
+.ant-modal-body h3 {
+    width: calc(100% - 40px);
+    margin-bottom: 12px;
+}
+
+.ant-modal-content {
     background-color: transparent;
 }
 
@@ -3575,7 +3632,6 @@ footer a:visited {
     flex-direction: column;
     gap: 1rem;
     color: white;
-    min-width: 180px;
 }
 
 .block.footer .footer-links span {
